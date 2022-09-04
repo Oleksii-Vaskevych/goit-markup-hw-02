@@ -1,0 +1,189 @@
+:root {
+--primari-tex-color: #212121;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--accent-button-color: #2196F3;
+--button-text-color: #ffffff;
+--primari-bcg-color: #F5F5F5;
+--paragraph-tex:#757575;
+
+
+}
+
+
+body {
+    color: var(--primari-tex-color);
+    background-color: var(--primari-bcg-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* Логотип */
+
+.logo {
+color: #2196F3;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.48;
+}
+
+.title-logo {
+    color: #000000;
+}
+
+.title-logo:hover,
+.title-logo:focus {
+    color: var(--accent-color);
+}
+
+/* Активне посилання */
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/* Активна кнопка */
+.link-button:hover,
+.link-button:focus {
+    color: var(--button-text-color);
+    background: var(--accent-button-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Навгація */
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/* блок контакти топ */
+.site-contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color:var(--paragraph-tex);
+}
+
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Герой */
+.hero {
+background: #2F303A;
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.hero .button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+
+
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.hero .button:focus,
+.hero .button:hover {
+    cursor: pointer;
+    background: none;
+    color: var(--accent-color);
+
+}
+
+/* Блок 1 */
+.feature-list .title {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+}
+
+.title-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+color: var(--paragraph-tex);
+}
+
+/* Блок 2 */
+.section .section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.67;
+}
+
+/* Блок 3 */
+.team {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+ 
+color: var(--paragraph-tex);
+}
+
+.team-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+color: #212121;
+}
+
+/* Футер */
+.footer-items {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* ПОРТФОЛІО */
+.page-nav {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+}
+
+/* Галерея робіт */
+.gallery-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+
+letter-spacing: 0.06em;
+
+color: var(--primari-tex-color);
+}
+
+.gallery {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;  
+
+color: var(--paragraph-tex);
+}
