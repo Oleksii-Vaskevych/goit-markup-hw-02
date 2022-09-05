@@ -26,10 +26,15 @@ font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.48;
+text-decoration: none;
 }
 
 .title-logo {
     color: #000000;
+}
+
+footer .title-logo {
+    color: #FFFFFF;
 }
 
 .title-logo:hover,
@@ -43,13 +48,36 @@ line-height: 1.48;
     color: var(--accent-color);
 }
 
+/* кнопка */
+button {
+width: 125px;
+height: 38px;
+left: 593px;
+top: 174px;
+    
+background: #F5F4FA;
+border-radius: 4px;
+
+text-align: center;
+
+}
+
+.link-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+ color: #212121;
+}
 /* Активна кнопка */
 .link-button:hover,
 .link-button:focus {
     color: var(--button-text-color);
     background: var(--accent-button-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+
     cursor: pointer;
 }
 
@@ -62,7 +90,7 @@ line-height: 1.48;
 }
 
 /* блок контакти топ */
-.site-contacts {
+.site-contactss {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -167,6 +195,8 @@ color: rgba(255, 255, 255, 0.6);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
+
+color: #212121;
 }
 
 /* Галерея робіт */
@@ -186,4 +216,50 @@ font-size: 16px;
 line-height: 1.88;  
 
 color: var(--paragraph-tex);
+}
+
+.link {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    font-style:normal
+}
+
+footer {
+background: #2F303A;
+}
+
+.footer-items .link {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+    
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-items .place-tex {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.site-contacts .link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    
+color: #757575;
+}
+
+.site-nav .active .link {
+    color: var(--accent-color);
 }
