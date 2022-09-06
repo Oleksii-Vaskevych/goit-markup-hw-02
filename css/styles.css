@@ -45,7 +45,13 @@ footer .logo {
   color: #212121;
 }
 
+a {
+  font-family: 'Raleway', sans-serif;
+}
 
+a.link {
+  color: var(--primari-tex-color);
+}
 
 .link {
   text-decoration: none;
@@ -106,6 +112,7 @@ background-color: #2196F3;
 }
 
 button {
+  font-family: 'Raleway', sans-serif;
   cursor: pointer;
 }
 
@@ -297,4 +304,14 @@ address {
   letter-spacing: 0.03em;
   
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-color);
+}
+
+.link .place-tex:hover,
+.link .place-tex:focus {
+  color: var(--accent-color);
 }
