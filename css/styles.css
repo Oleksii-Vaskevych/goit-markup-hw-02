@@ -46,7 +46,7 @@ footer .logo {
 }
 
 a {
-  font-family: 'Raleway', sans-serif;
+  font-family: inherit;
 }
 
 a.link {
@@ -112,7 +112,7 @@ background-color: #2196F3;
 }
 
 button {
-  font-family: 'Raleway', sans-serif;
+  font-family: inherit;
   cursor: pointer;
 }
 
